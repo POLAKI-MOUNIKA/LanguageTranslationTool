@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Language Translator</title>
+</head>
+<body>
+    <h1>Language Translator</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Translate</button>
+    </form>
+    {% if translation %}
+        <h2>Translation:</h2>
+        <p>{{ translation }}</p>
+    {% endif %}
+</body>
+</html>
