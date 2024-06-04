@@ -28,7 +28,6 @@ The Language Translation Tool is a web application designed to provide seamless 
 - Python 3.6+
 - Django 3.2+
 - googletrans==4.0.0-rc1 (or the latest stable version)
-- Other dependencies listed in `requirements.txt`
 
 ## Conclusion
 
